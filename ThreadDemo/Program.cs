@@ -5,7 +5,7 @@ namespace ThreadDemo
 {
     class Program
     {
-
+        [ThreadStatic]
         private static int counter;
 
         public static int Counter
